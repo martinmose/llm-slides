@@ -10,14 +10,16 @@ mkdir -p build dist
 
 {
   cat slides/00-frontmatter.md
-  first=true
-  for f in slides/[0-9][1-9]-*.md; do
-    if [ "$first" = true ]; then
-      first=false
-    else
+  slides=()
+  for f in slides/[0-9][0-9]*.md; do
+    [[ "$f" == "slides/00-frontmatter.md" ]] && continue
+    slides+=("$f")
+  done
+  for i in "${!slides[@]}"; do
+    cat "${slides[$i]}"
+    if [[ $i -lt $((${#slides[@]} - 1)) ]]; then
       echo '---'
     fi
-    cat "$f"
   done
 } > build/deck.md
 
