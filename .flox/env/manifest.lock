@@ -1,0 +1,142 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "marp-cli": {
+        "pkg-path": "marp-cli",
+        "version": "4.2.3"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/0yxnwhnxiv0zp0dhq6prz4zp0a5wbv7a-marp-cli-4.2.3.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "marp-cli-4.2.3",
+      "pname": "marp-cli",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T04:40:28.740889Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cxzayxksp1d8rl90cb8vn4cwzcg4v52r-marp-cli-4.2.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/7aaghymazlxj764ww78ycwwjax31lb1m-marp-cli-4.2.3.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "marp-cli-4.2.3",
+      "pname": "marp-cli",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T04:57:12.135366Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/50k0mr4r4g59aypifs60ry7y30dzglxj-marp-cli-4.2.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/mm0k95yva81slx0csx2yi4hq8r85k0z4-marp-cli-4.2.3.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "marp-cli-4.2.3",
+      "pname": "marp-cli",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T05:12:35.105513Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/f79bfk25idxcin907wvl529zhgk1zhqb-marp-cli-4.2.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/vjvi5plw2ysri5kf3nbjflwaffz628av-marp-cli-4.2.3.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "marp-cli-4.2.3",
+      "pname": "marp-cli",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T05:28:08.511969Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hg8rz38r690jxkr9qnq83f2l9znrrny8-marp-cli-4.2.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
