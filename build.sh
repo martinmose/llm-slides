@@ -11,7 +11,7 @@ mkdir -p build dist
 {
   cat slides/00-frontmatter.md
   slides=()
-  for f in slides/[0-9][0-9]*.md; do
+  for f in slides/[0-9]*.md; do
     [[ "$f" == "slides/00-frontmatter.md" ]] && continue
     slides+=("$f")
   done

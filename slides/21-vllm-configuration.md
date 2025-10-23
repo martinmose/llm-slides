@@ -1,4 +1,4 @@
-# The Hard Part: vLLM Parameters
+# Den Svære Del: vLLM Parametre
 
 ```bash
 vllm serve \
@@ -14,6 +14,6 @@ vllm serve \
   --tensor-parallel-size 1
 ```
 
-- Finding the right balance between throughput and memory
-- Tuning for long context windows (262k tokens)
-- Optimizing batch processing parameters
+- Finde den rette balance mellem throughput og hukommelse
+- Tuning til lange context vinduer (262k tokens)
+- Optimering af batch processing parametre
