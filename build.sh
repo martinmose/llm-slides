@@ -24,4 +24,4 @@ mkdir -p build dist
 } > build/deck.md
 
 marp build/deck.md --pdf --allow-local-files -o dist/deck.pdf
-marp build/deck.md --pptx -o dist/deck.pptx
+marp build/deck.md --pptx --allow-local-files -o dist/deck.pptx
