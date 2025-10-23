@@ -19,9 +19,15 @@ Instructions for AI coding agents working in this repository.
 - **Slide naming**: Use pattern `NN-description.md` where NN is two-digit number (e.g., `01-intro.md`, `02-content.md`)
 - Slides processed in lexicographic order by glob `slides/[0-9][0-9]-*.md`
 - `slides/00-frontmatter.md`: Contains Marp YAML configuration (theme, pagination, custom styles)
-- **IMPORTANT**: All slide files MUST end with a trailing newline for proper separation
+- **CRITICAL**: ALL slide files MUST end with a trailing newline character. When creating or editing slides, ALWAYS ensure the file ends with `\n`
 - Slide separator `---` added automatically by build script
 - Build outputs: `build/deck.md` (combined), `dist/deck.pdf`, `dist/deck.pptx`
+
+### Creating New Slides
+When creating a new slide file:
+1. Write the content
+2. **ALWAYS add a trailing newline at the end** - this is mandatory
+3. Verify the file ends with a blank line
 
 ## Style Guidelines
 - Markdown formatting: Standard GFM, clean and readable
